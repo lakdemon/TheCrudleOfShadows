@@ -1,0 +1,577 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"l",
+				"linux"
+			],
+			[
+				"inc",
+				"inc\t#include <…>"
+			],
+			[
+				"ma",
+				"main\tmain()"
+			],
+			[
+				"Ad",
+				"Add"
+			],
+			[
+				"Pr",
+				"PrintAll"
+			],
+			[
+				"op",
+				"option"
+			],
+			[
+				"W",
+				"Writeln"
+			],
+			[
+				"Re",
+				"Readln"
+			],
+			[
+				"Wi",
+				"Write"
+			],
+			[
+				"size",
+				"size2"
+			],
+			[
+				"a",
+				"a2"
+			],
+			[
+				"ar",
+				"array"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"s",
+				"size"
+			],
+			[
+				"arr",
+				"array2"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"A",
+				"A_STANDOUT"
+			],
+			[
+				"A_",
+				"A_BOLD"
+			],
+			[
+				"cl",
+				"client"
+			],
+			[
+				"men",
+				"menu_v"
+			],
+			[
+				"L",
+				"LINES-1"
+			],
+			[
+				"c",
+				"curses"
+			],
+			[
+				"me",
+				"messages"
+			],
+			[
+				"en",
+				"entering_symbol"
+			],
+			[
+				"te",
+				"text_sending_message"
+			],
+			[
+				"mes",
+				"message_entering"
+			],
+			[
+				"from",
+				"from_id"
+			],
+			[
+				"dia",
+				"dialogs"
+			],
+			[
+				"t",
+				"try\tTry/Except/Else/Finally"
+			],
+			[
+				"m",
+				"myscreen"
+			],
+			[
+				"to",
+				"to_id"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"us",
+				"user_id"
+			],
+			[
+				"fi",
+				"from_id"
+			],
+			[
+				"None",
+				"None"
+			],
+			[
+				"for",
+				"for\tFor Loop"
+			],
+			[
+				"ex",
+				"except"
+			],
+			[
+				"Mess",
+				"messages"
+			],
+			[
+				"tr",
+				"try\tTry/Except"
+			],
+			[
+				"vk",
+				"vk_pass"
+			],
+			[
+				"v",
+				"vk_login"
+			],
+			[
+				"r",
+				"rotate"
+			],
+			[
+				"se",
+				"setSize"
+			],
+			[
+				"f",
+				"field"
+			],
+			[
+				"whi",
+				"whiteC"
+			],
+			[
+				"re",
+				"rect"
+			],
+			[
+				"rec",
+				"rect"
+			],
+			[
+				"set",
+				"setPosition"
+			],
+			[
+				"mouse",
+				"mousex"
+			],
+			[
+				"mous",
+				"mousex"
+			],
+			[
+				"d",
+				"draw"
+			],
+			[
+				"rea",
+				"rectangle1"
+			],
+			[
+				"rect",
+				"rectangle1"
+			],
+			[
+				"ba",
+				"basicC"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 381.0,
+		"last_filter": "ne",
+		"selected_items":
+		[
+			[
+				"ne",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"sublimelinter: en",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"nex",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"colo",
+				"Color Scheme Editor: Edit current color scheme"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"pyth",
+				"SublimeREPL: Python"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"she",
+				"SublimeREPL: Shell"
+			],
+			[
+				"shel",
+				"SublimeREPL: Shell"
+			],
+			[
+				"pyt",
+				"SublimeREPL: Python"
+			],
+			[
+				"pac",
+				"Install Package Control"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 459.0
+	},
+	"console":
+	{
+		"height": 131.0,
+		"history":
+		[
+			"gcc"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/desperado/.config/sublime-text-3/Packages/Terminal/Default (Linux).sublime-keymap",
+		"/home/desperado/Desktop/tmp",
+		"/home/desperado/Desktop/tmp.cpp",
+		"/home/desperado/.config/sublime-text-3/Packages/Color Scheme - Default/Monokai.tmTheme",
+		"/home/desperado/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
+		"/home/desperado/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
+		"/home/desperado/.config/sublime-text-3/Packages/Default/Distraction Free.sublime-settings",
+		"/home/desperado/Documents/ugadaika/Hard.txt",
+		"/home/desperado/Documents/ugadaika/Medium.txt",
+		"/etc/X11/xorg.conf.d/00-keyboard.conf",
+		"/etc/X11/xinit/xinitrc",
+		"/etc/lightdm/Xsession",
+		"/etc/sddm.conf",
+		"/home/desperado/Documents/TheCrudleofShadows/Makefile",
+		"/home/desperado/Documents/ugadaika/Records.txt",
+		"/home/desperado/Downloads/kursac_c/kursac.c",
+		"/home/desperado/Documents/ugadaika/Easy.txt",
+		"/home/desperado/Documents/Tickets/Tickets.txt",
+		"/home/desperado/Documents/kalendar/CALENDAR.txt",
+		"/home/desperado/Documents/TheCrudleofShadows/Images/Test/1",
+		"/etc/X11/xorg.conf.d/90-mhwd.conf",
+		"/etc/lightdm/keys.conf",
+		"/home/desperado/Documents/sosi/main.c",
+		"/home/desperado/Downloads/kursac_c/database.txt",
+		"/home/desperado/Downloads/kursac_c (1)/database.txt",
+		"/tmp/mozilla_desperado0/database.txt",
+		"/home/desperado/Documents/kalendar/CALENDARBUFFER.txt",
+		"/home/desperado/Documents/pasc/zinka.pas",
+		"/home/desperado/Documents/bddekanat/Terver",
+		"/home/desperado/Documents/bddekanat/1462",
+		"/home/desperado/Documents/bddekanat/Physics",
+		"/home/desperado/Downloads/Russo_One/OFL.txt",
+		"/home/desperado/Documents/bddekanat/Matan",
+		"/home/desperado/Documents/bddekanat/1441",
+		"/home/desperado/Documents/bddekanat/Groups.txt",
+		"/home/desperado/Documents/bddekanat/1234",
+		"/home/desperado/Documents/bddekanat/1478",
+		"/home/desperado/Documents/bddekanat/1522",
+		"/home/desperado/Documents/bddekanat/1548",
+		"/home/desperado/Documents/bddekanat/Disciplines.txt",
+		"/home/desperado/Documents/bddekanat/four",
+		"/home/desperado/Documents/bddekanat/1111",
+		"/home/desperado/Documents/bddekanat/Terver.txt",
+		"/home/desperado/Documents/bddekanat/five\n",
+		"/home/desperado/Documents/bddekanat/Disciplines/Physics",
+		"/home/desperado/Documents/bddekanat/ita\n",
+		"/home/desperado/Documents/bddekanat/it\n",
+		"/home/desperado/Documents/bddekanat/1478.txt",
+		"/home/desperado/Documents/bddekanat/1548.txt",
+		"/home/desperado/Documents/bddekanat/1522.txt",
+		"/home/desperado/Documents/bddekanat/1462.txt",
+		"/home/desperado/Documents/bddekanat/1441.txt",
+		"/home/desperado/Documents/bddekanat/1235",
+		"/home/desperado/Documents/kurs/database",
+		"/home/desperado/Desktop/vscode",
+		"/home/desperado/MazeStudio/Ragnarok/main.cpp",
+		"/tmp/mozilla_desperado0/main-2.cpp",
+		"/tmp/mozilla_desperado0/main-1.cpp",
+		"/tmp/mozilla_desperado0/main.cpp",
+		"/home/desperado/vkgramm/vkgramm.py",
+		"/home/desperado/Documents/PYSFML/test.py",
+		"/home/desperado/Documents/PYSFML/pong.py",
+		"/home/desperado/electronfm/electron-quick-start/index.html",
+		"/home/desperado/electronfm/electron-quick-start/style.css",
+		"/home/desperado/gridtest/electron-gridlayout-sample/view/flow_direction.html",
+		"/home/desperado/Desktop/vktotg-master/README.md",
+		"/home/desperado/Desktop/vktotg-master/MusicSaver.session",
+		"/tmp/xa-7DJB9Y/INSTALL",
+		"/home/desperado/Desktop/Terraria.desktop",
+		"/tmp/mozilla_desperado0/conkyrc-1.conkyrc",
+		"/home/desperado/Desktop/Process",
+		"/home/desperado/Button.cpp",
+		"/home/desperado/source_code.cpp",
+		"/home/desperado/.gtkrc-2.0",
+		"/tmp/mozilla_desperado0/main-4.cpp",
+		"/home/desperado/.conky/Gotham/Gotham",
+		"/tmp/mozilla_desperado0/vkgramm.py",
+		"/home/desperado/Desktop/vktotg-master/vktotg.py",
+		"/tmp/mozilla_desperado0/main-3.cpp",
+		"/home/desperado/Documents/bddekanat/exm.c",
+		"/tmp/mozilla_desperado0/main.c",
+		"/tmp/mozilla_desperado0/Dostatochno_li_vy_umny_chtoby_rabotat_v_Google.djvu",
+		"/home/desperado/Documents/Reborn",
+		"/home/desperado/Documents/kurs/kursac.c",
+		"/home/desperado/Documents/kurs/main.c",
+		"/home/desperado/Documents/kurs/datavase",
+		"/home/desperado/Desktop/Новый каталог/debian-binary",
+		"/home/desperado/Documents/imgui/imgui-master/TODO.txt",
+		"/usr/lib/ocaml/camlidl/META",
+		"/home/desperado/lakdemon1.session",
+		"/home/desperado/index.html",
+		"/home/desperado/Documents/My Games/saves/5/Worlds/wrld.wld",
+		"/home/desperado/Desktop/c",
+		"/home/desperado/Desktop/Google_Drive",
+		"/home/desperado/.wine/winetricks.log",
+		"/home/desperado/Downloads/Mathcad_Prime_3.1_32bit/mathcad 3.1 - 32bit/mathcad_viewable_support/Setup.exe",
+		"/home/desperado/vkgramm.py",
+		"/home/desperado/.conky/Green Apple Desktop/Gotham",
+		"/home/desperado/vkgramm/delete.cpp",
+		"/home/desperado/Downloads/  Dark Souls 3 pareciera continuar los sucesos del Dark Lord Ending.jpg",
+		"/home/desperado/virtual-drives/1/setup.exe",
+		"/home/desperado/.conky/TeejeeTech/Process Panel",
+		"/tmp/mozilla_desperado0/en_microsoft_office_2003_dvd.iso",
+		"/tmp/mozilla_desperado0/Minecraft_Skin_Viewer.exe1",
+		"/home/desperado/Desktop/minviewer.exe",
+		"/home/desperado/.vkrc",
+		"/home/desperado/Downloads/abstract_fail_message_motivational_1920x1080_wallpaper_Wallpaper",
+		"/home/desperado/.i3/config",
+		"/home/desperado/sfml.cpp",
+		"/home/desperado/Desktop/vk",
+		"/home/desperado/Desktop/doscord",
+		"/home/desperado/Desktop/firefox",
+		"/home/desperado/Desktop/7-Zip.desktop",
+		"/home/desperado/Desktop/Minecraft.desktop",
+		"/home/desperado/.config/autostart/dde-dock.desktop",
+		"/.manjaro-tools",
+		"/home/desperado/Downloads/pars.py",
+		"/home/desperado/Downloads/req.py",
+		"/home/desperado/recogn.py",
+		"/home/desperado/Desktop/[Desktop Entry]",
+		"/home/desperado/Documents/scripts/cler.sh",
+		"/home/desperado/conkyrc2",
+		"/home/desperado/conkyrc3",
+		"/home/desperado/Desktop/playonlinux",
+		"/home/desperado/Downloads/install-crossover-16.2.5.bin",
+		"/home/desperado/Desktop/vscode (копия)",
+		"/home/desperado/Desktop/sublime text",
+		"/home/desperado/discord/Discord.sh"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 75.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 140.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
