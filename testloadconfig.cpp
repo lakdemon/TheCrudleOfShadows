@@ -53,6 +53,8 @@ class GameObject : public sf::Sprite
     std::vector<Triangle> transcluentTriangles;
     std::vector<Triangle> solidTriangles;
     std::vector<Triangle> usableTriangles;
+    sf::Texture texture;
+    sf::Sprite sprite;
 
 
     GameObject(){};
@@ -61,8 +63,7 @@ class GameObject : public sf::Sprite
         std::fstream file(config);
         std::string str;
         size_t pos;
-        //for(auto i=0;i<3;i++)
-        //{
+
             getline(file,str);
             if(str.find("true")!=std::string::npos)
             {
@@ -90,13 +91,11 @@ class GameObject : public sf::Sprite
                 Usable=true;
             else
                 Usable=false;
-        //}
-        
-        //while(getline(file, str))
-        //{
-        //    pos = str.find("true");
-        //      
-        //}
+
+            if(texture.loadFromFile("Resources/Textures/1.png")!=NULL)
+                this->setTexture(texture);
+            else
+                std::cout << "texture can't be load" << std::endl;
 
     file.close();       
     };
@@ -113,6 +112,26 @@ int main()
     std::cout << "Object is Solid"<<std::endl;
         if(obj.Usable)
     std::cout << "Object is Usable"<<std::endl;
+
+    sf::RenderWindow window(sf::VideoMode(900, 600), "The Crudlle of shadows");
+
+
+    while(window.isOpen())
+    {
+
+        sf::Event event;
+        while (window.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed)
+                window.close();
+
+        }
+
+
+        window.clear(sf::Color(20,20,20));
+        window.draw(obj);
+        window.display();
+    }
 
 
 }
