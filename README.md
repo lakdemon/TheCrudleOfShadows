@@ -10,8 +10,7 @@ RPG-like game with isometric graphics
 
 # installing
 
- ```
-bash
+ ```bash
 make install
 
  ```
