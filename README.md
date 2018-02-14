@@ -9,7 +9,9 @@ RPG-like game with isometric graphics
 >g++
 
 # installing
-'''
+
+ ```
 bash
 make install
-'''
+
+ ```
