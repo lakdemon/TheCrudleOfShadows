@@ -4,11 +4,11 @@ v0.0.1
 
 RPG-like game with isometric graphics
 
-### Dependends
+### Dependences
 >sfml
 >g++
 
-### installing
+### Installing
 
  ```bash
 make install
