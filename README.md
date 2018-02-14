@@ -11,6 +11,12 @@ RPG-like game with isometric graphics
 ### Installing
 
  ```bash
-make install
+./install.sh
+
+ ```
+### Running
+
+ ```bash
+./TCOS
 
  ```

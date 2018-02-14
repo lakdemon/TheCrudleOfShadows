@@ -1,0 +1,1 @@
+g++ -c main.cpp GameObject.cpp Triangle.cpp Player.cpp && g++ main.o GameObject.o Triangle.o Player.o -o TCOS -lsfml-graphics -lsfml-window -lsfml-system && rm ./*.o
