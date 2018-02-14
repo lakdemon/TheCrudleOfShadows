@@ -17,7 +17,7 @@ solid: true
 usable: false
 {
 }
-normal_texture: Resources/Textures/1.png
+normal_texture: Resources/Textures/2.png
 transcluent_texture: Resources/Textures/1t.png
 usable_texture: none
 position_X: 0
