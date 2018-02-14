@@ -5,8 +5,8 @@ v0.0.1
 RPG-like game with isometric graphics
 
 ### Dependences
->sfml
->g++
+- sfml
+- g++
 
 ### Installing
 
