@@ -1,5 +1,42 @@
 #include "GameObject.h"
 
+class Level
+{
+    public:
+    std::vector<GameObject> objects;
+    std::vector<GameObject> transcluent_objects;
+
+    Level(){};
+    
+    ~Level()
+    {
+        if(!objects.empty())                objects.clear();
+        if(!transcluent_objects.empty())    transcluent_objects.clear();
+    };
+    
+    void loadFromFile(std::string name)
+    {
+        if(!objects.empty())                objects.clear();
+        if(!transcluent_objects.empty())    transcluent_objects.clear();
+
+        std::string Path = "/Resources/Objects/" + name; 
+
+        std::fstream file(Path+"/0");
+        std::string objectName;
+
+        getline(file,objectName);
+        while(objectName!=EOF)
+        {            
+            objects.push_back(GameObject(Path+"/"+objectName));
+            getline(file,objectName);
+        }
+
+        file.close();
+
+
+    };
+};
+
 int main()
 {
 
@@ -7,7 +44,7 @@ int main()
     std::vector<GameObject> transcluent_objects;
 
     objects.push_back(GameObject("Resources/Objects/Level0/1"));
-    objects.push_back(GameObject("Resources/Objects/Level0/1"));
+    objects.push_back(GameObject("Resources/Objects/Level0/2"));
     
 
     sf::RenderWindow window(sf::VideoMode(900, 600), "The Crudlle of shadows");

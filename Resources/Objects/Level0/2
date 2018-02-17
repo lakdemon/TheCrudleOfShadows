@@ -20,6 +20,6 @@ usable: false
 normal_texture: Resources/Textures/2.png
 transcluent_texture: Resources/Textures/1t.png
 usable_texture: none
-position_X: 0
-position_Y: 0
+position_X: 150
+position_Y: 25
 id: 1
