@@ -1,4 +1,7 @@
 #include "GameObject.h"
+#include <iostream>
+#include <fstream>
+#include <string>
 
 class Level
 {
@@ -24,11 +27,9 @@ class Level
         std::fstream file(Path+"/0");
         std::string objectName;
 
-        getline(file,objectName);
-        while(objectName!=EOF)
+        while(getline(file,objectName))
         {            
             objects.push_back(GameObject(Path+"/"+objectName));
-            getline(file,objectName);
         }
 
         file.close();
