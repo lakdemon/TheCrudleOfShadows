@@ -11,6 +11,11 @@ class Level
 
     Level(){};
     
+    Level(std::string str)
+    {
+        loadFromFile(str);
+    }
+
     ~Level()
     {
         if(!objects.empty())                objects.clear();
@@ -22,16 +27,21 @@ class Level
         if(!objects.empty())                objects.clear();
         if(!transcluent_objects.empty())    transcluent_objects.clear();
 
-        std::string Path = "/Resources/Objects/" + name; 
-
+        std::string Path = "Resources/Objects/" + name; 
+        
+        std::cout << "openning level config: " << Path+"/0" << std::endl;
         std::fstream file(Path+"/0");
+        if(file.is_open())
+            std::cout << "file opened" << std::endl;
         std::string objectName;
 
         while(getline(file,objectName))
         {            
+            std::cout << "reading object config file: " << Path+"/"+objectName << std::endl; 
             objects.push_back(GameObject(Path+"/"+objectName));
         }
 
+        std::cout << "file closed" << std::endl;
         file.close();
 
 
@@ -41,12 +51,13 @@ class Level
 int main()
 {
 
-    std::vector<GameObject> objects;
-    std::vector<GameObject> transcluent_objects;
+    //std::vector<GameObject> objects;
+    //std::vector<GameObject> transcluent_objects;
 
-    objects.push_back(GameObject("Resources/Objects/Level0/1"));
-    objects.push_back(GameObject("Resources/Objects/Level0/2"));
+    //objects.push_back(GameObject("Resources/Objects/Level0/1"));
+    //objects.push_back(GameObject("Resources/Objects/Level0/2"));
     
+    Level level("test_level");
 
     sf::RenderWindow window(sf::VideoMode(900, 600), "The Crudlle of shadows");
     window.setFramerateLimit(60);
@@ -67,6 +78,7 @@ int main()
 
         //#################################   ПРОВЕРКА ОБЪЕКТОВ  #############################################
         
+        /*
         for(auto it : objects){
             it.update();
             if(it.Transcluent==true)
@@ -84,7 +96,7 @@ int main()
                 //transcluent objects erase it
             }
         }
-
+    */
 
         //############################################################################################
         //#################################   ОТРИСОВКА  #############################################
@@ -93,14 +105,14 @@ int main()
         window.clear(sf::Color(20,20,20));
       
         // прорисовываем все объекты
-        for(auto it : objects)
+        for(auto it : level.objects)
             window.draw(it);
         
         // отрисовываем персонажа
         //window.draw(player);
 
         // отрисовываем полупрозрачные объекты
-        for(auto it : transcluent_objects)
+        for(auto it : level.transcluent_objects)
             window.draw(it);
         
         // отображаем всё на экране

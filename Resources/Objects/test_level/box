@@ -1,0 +1,25 @@
+transcluent: true
+{
+64 136 204 239 64 303
+,
+64 136 204 71 204 239
+,
+204 71 335 136 204 239
+,
+204 239 335 136 336 303
+}
+solid: true
+{
+64 303 335 303 204 376
+,
+64 303 335 303 204 239
+}
+usable: false
+{
+}
+normal_texture: Resources/Textures/1.png
+transcluent_texture: Resources/Textures/1t.png
+usable_texture: none
+position_X: 0
+position_Y: 0
+id: 1
