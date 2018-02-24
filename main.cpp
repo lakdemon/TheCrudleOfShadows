@@ -11,15 +11,23 @@ class Level
 
     Level(){};
     
+    Level(const Level &obj)
+    {
+        //for(auto it : obj.objects)
+        //objects.push_back(it);
+        
+    };
+
     Level(std::string str)
     {
-        loadFromFile(str);
+        this->loadFromFile(str);
     }
 
     ~Level()
     {
-        if(!objects.empty())                objects.clear();
-        if(!transcluent_objects.empty())    transcluent_objects.clear();
+        //if(!objects.empty())                objects.clear();
+        //if(!transcluent_objects.empty())    transcluent_objects.clear();
+        std::cout << "destructing" << std::endl;
     };
     
     void loadFromFile(std::string name)
@@ -44,20 +52,26 @@ class Level
         std::cout << "file closed" << std::endl;
         file.close();
 
-
     };
+
+    void drawObjects(sf::RenderWindow &window)
+    {
+        //for(auto &it : objects){
+          //  it.move(0.5,0);
+            //window.draw(it);
+            //window.display();
+        //}
+
+        for(auto it : objects)
+        window.draw(it);
+    }
 };
 
 int main()
 {
-
-    //std::vector<GameObject> objects;
-    //std::vector<GameObject> transcluent_objects;
-
-    //objects.push_back(GameObject("Resources/Objects/Level0/1"));
-    //objects.push_back(GameObject("Resources/Objects/Level0/2"));
     
-    Level level("test_level");
+    Level level;
+    level.loadFromFile("test_level");
 
     sf::RenderWindow window(sf::VideoMode(900, 600), "The Crudlle of shadows");
     window.setFramerateLimit(60);
@@ -105,15 +119,14 @@ int main()
         window.clear(sf::Color(20,20,20));
       
         // прорисовываем все объекты
-        for(auto it : level.objects)
-            window.draw(it);
-        
+        level.drawObjects(window);
+
         // отрисовываем персонажа
         //window.draw(player);
 
         // отрисовываем полупрозрачные объекты
-        for(auto it : level.transcluent_objects)
-            window.draw(it);
+        //for(auto it : level.transcluent_objects)
+          //  window.draw(it);
         
         // отображаем всё на экране
         window.display();
